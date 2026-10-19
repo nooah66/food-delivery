@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8f5ef" />
+  <meta name="description" content="Nooha's slow-cooked comfort food, made with fresh ingredients and delivered to your door." />
+  <title>Nooha's — Slow food, delivered</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">Real ingredients. Slow-cooked with love. Delivered fresh. <span>✦</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Nooha's home"><span class="brand-mark">n</span><span>nooha's<span class="brand-dot">.</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#menu">Our menu</a><a href="#story">Our story</a><a href="#how-it-works">How it works</a>
+    </nav>
+    <div class="header-actions"><button class="location-button" type="button" aria-label="Choose delivery location"><span>⌖</span> Delivering to <strong>your door</strong></button><button class="cart-button" type="button" aria-label="Open shopping bag">Bag <span class="cart-count">0</span></button><button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button></div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy"><span class="eyebrow"><span class="eyebrow-line"></span> THE GOOD FOOD KIND</span><h1>Good things<br />take <em>slow.</em></h1><p>Fresh-picked ingredients, beautiful cuts of meat, and all the time they need. We cook it slow, so you can eat it happy.</p><div class="hero-actions"><a class="button button-dark" href="#menu">Explore the menu <span>↗</span></a><span class="hero-note"><span class="note-stars">★★★★★</span><br />Made fresh daily</span></div><div class="hero-stamp" aria-hidden="true"><span>GOOD FOOD<br />GOOD MOOD</span><b>✳</b></div></div>
+      <div class="hero-visual"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1250&q=85" alt="A colorful bowl of freshly prepared vegetables and grains" /><div class="image-caption"><span class="caption-dot"></span> Fresh from our kitchen <span class="caption-divider">·</span> made just for you</div><div class="floating-card"><span class="floating-icon">♡</span><span><strong>Cooked low & slow</strong><small>Never rushed. Always worth it.</small></span></div></div>
+    </section>
+
+    <section class="promise-strip" aria-label="Our promises"><div><span>✳</span> Fresh ingredients</div><i></i><div><span>♨</span> Slow-cooked goodness</div><i></i><div><span>⌂</span> At your doorstep</div><i></i><div><span>♡</span> Made with care</div></section>
+
+    <section class="menu-section" id="menu"><div class="section-heading"><div><span class="eyebrow"><span class="eyebrow-line"></span> FROM OUR KITCHEN</span><h2>A little something<br />to <em>love.</em></h2></div><p>Comfort food with a fresh point of view. Find your new favorite, made by hand and ready when you are.</p></div>
+      <div class="category-row"><div class="category-tabs" role="group" aria-label="Filter menu"><button class="category-tab active" type="button" data-category="all">All the good stuff</button><button class="category-tab" type="button" data-category="beef">Slow-cooked beef</button><button class="category-tab" type="button" data-category="chicken">Chicken</button><button class="category-tab" type="button" data-category="plant">Plant-based</button></div><span class="menu-count">MADE FRESH, EVERY DAY</span></div>
+      <div class="menu-grid" id="menu-grid" aria-live="polite"></div>
+      <div class="menu-bottom"><span>Thoughtful ingredients, nothing to hide.</span><a href="#how-it-works">How we make it <span>→</span></a></div>
+    </section>
+
+    <section class="story-section" id="story"><div class="story-image"><img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1000&q=85" alt="A home cook preparing fresh ingredients in a warm kitchen" /><span class="image-label">A little love in every batch</span></div><div class="story-copy"><span class="eyebrow"><span class="eyebrow-line"></span> A NOTE FROM NOOHA</span><h2>Real food.<br />Real <em>slow.</em></h2><p>We believe the best meals don't come from a packet. They start with ingredients we feel good about, a kitchen full of good smells, and the patience to let everything come together.</p><p>From our kitchen to your table, every dish is made fresh and delivered with care. That's the Nooha's way.</p><a class="text-link" href="#how-it-works">More about our kitchen <span>↗</span></a></div></section>
+
+    <section class="process-section" id="how-it-works"><div class="process-heading"><span class="eyebrow"><span class="eyebrow-line"></span> EASY AS 1, 2, EAT</span><h2>Your dinner plans?<br /><em>Handled.</em></h2></div><div class="process-grid"><article><span class="step-number">01</span><span class="step-icon">⌕</span><h3>Pick your plate</h3><p>Choose the fresh, slow-cooked meal that's calling your name.</p></article><article><span class="step-number">02</span><span class="step-icon">♨</span><h3>We take our time</h3><p>We prepare every order with quality ingredients and a little extra love.</p></article><article><span class="step-number">03</span><span class="step-icon">⌂</span><h3>Goodness, delivered</h3><p>A lovely meal, on your doorstep and ready to make your day.</p></article></div></section>
+
+    <section class="closing-cta"><div><span class="eyebrow">YOUR NEXT GOOD MEAL IS RIGHT HERE</span><h2>Let's make today<br /><em>delicious.</em></h2><a class="button button-light" href="#menu">Find your favorite <span>↗</span></a></div><span class="cta-spark" aria-hidden="true">✳</span></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">n</span><span>nooha's<span class="brand-dot">.</span></span></a><span>Good food, made with care. © <span id="year"></span> Nooha's.</span><a href="#home">Back to the top ↑</a></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
